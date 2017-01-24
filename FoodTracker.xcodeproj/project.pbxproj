@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		832F733D1E3661A500D42DF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832F733C1E3661A500D42DF8 /* AppDelegate.swift */; };
-		832F733F1E3661A500D42DF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832F733E1E3661A500D42DF8 /* ViewController.swift */; };
+		832F733F1E3661A500D42DF8 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832F733E1E3661A500D42DF8 /* MealViewController.swift */; };
 		832F73421E3661A500D42DF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 832F73401E3661A500D42DF8 /* Main.storyboard */; };
 		832F73441E3661A500D42DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 832F73431E3661A500D42DF8 /* Assets.xcassets */; };
 		832F73471E3661A500D42DF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 832F73451E3661A500D42DF8 /* LaunchScreen.storyboard */; };
 		832F73521E3661A600D42DF8 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832F73511E3661A600D42DF8 /* FoodTrackerTests.swift */; };
 		832F735D1E36D55700D42DF8 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832F735C1E36D55700D42DF8 /* RatingControl.swift */; };
+		832F735F1E36F88100D42DF8 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832F735E1E36F88100D42DF8 /* Meal.swift */; };
+		832F73611E370D6900D42DF8 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832F73601E370D6900D42DF8 /* MealTableViewCell.swift */; };
+		832F73631E37118300D42DF8 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832F73621E37118300D42DF8 /* MealTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +32,7 @@
 /* Begin PBXFileReference section */
 		832F73391E3661A500D42DF8 /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		832F733C1E3661A500D42DF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		832F733E1E3661A500D42DF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		832F733E1E3661A500D42DF8 /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
 		832F73411E3661A500D42DF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		832F73431E3661A500D42DF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		832F73461E3661A500D42DF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +41,9 @@
 		832F73511E3661A600D42DF8 /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		832F73531E3661A600D42DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		832F735C1E36D55700D42DF8 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RatingControl.swift; path = ../RatingControl.swift; sourceTree = "<group>"; };
+		832F735E1E36F88100D42DF8 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		832F73601E370D6900D42DF8 /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
+		832F73621E37118300D42DF8 /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +86,12 @@
 			isa = PBXGroup;
 			children = (
 				832F733C1E3661A500D42DF8 /* AppDelegate.swift */,
-				832F733E1E3661A500D42DF8 /* ViewController.swift */,
+				832F733E1E3661A500D42DF8 /* MealViewController.swift */,
+				832F735E1E36F88100D42DF8 /* Meal.swift */,
 				832F735C1E36D55700D42DF8 /* RatingControl.swift */,
 				832F73401E3661A500D42DF8 /* Main.storyboard */,
+				832F73621E37118300D42DF8 /* MealTableViewController.swift */,
+				832F73601E370D6900D42DF8 /* MealTableViewCell.swift */,
 				832F73431E3661A500D42DF8 /* Assets.xcassets */,
 				832F73451E3661A500D42DF8 /* LaunchScreen.storyboard */,
 				832F73481E3661A500D42DF8 /* Info.plist */,
@@ -202,9 +211,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				832F733F1E3661A500D42DF8 /* ViewController.swift in Sources */,
+				832F735F1E36F88100D42DF8 /* Meal.swift in Sources */,
+				832F733F1E3661A500D42DF8 /* MealViewController.swift in Sources */,
 				832F735D1E36D55700D42DF8 /* RatingControl.swift in Sources */,
 				832F733D1E3661A500D42DF8 /* AppDelegate.swift in Sources */,
+				832F73631E37118300D42DF8 /* MealTableViewController.swift in Sources */,
+				832F73611E370D6900D42DF8 /* MealTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +422,7 @@
 				832F73581E3661A600D42DF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		832F73591E3661A600D42DF8 /* Build configuration list for PBXNativeTarget "FoodTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +431,7 @@
 				832F735B1E3661A600D42DF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
